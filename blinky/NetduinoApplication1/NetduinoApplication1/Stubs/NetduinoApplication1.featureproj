@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FeatureName>NetduinoApplication1</FeatureName>
+    <Guid>{899ad1c0-b2ff-40a6-bb7f-608f093c42f7}</Guid>
+    <Description>&lt;Add Feature Description Here&gt;</Description>
+    <Groups />
+    <NETDUINOAPPLICATION1_FEATUREPROJ>True</NETDUINOAPPLICATION1_FEATUREPROJ>
+  </PropertyGroup>
+  <ItemGroup>
+    <DriverLibs Include="NetduinoApplication1.$(LIB_EXT)" />
+    <InteropFeature Include="NetduinoApplication1" />
+    <MMP_DAT_CreateDatabase Include="$(BUILD_TREE_CLIENT)\pe\$(ENDIANNESS)\NetduinoApplication1.pe" />
+    <RequiredProjects Include="C:\Users\saina\Documents\codes\projects\netduino\netduino\blinky\NetduinoApplication1\NetduinoApplication1\Stubs\dotnetmf.proj" />
+  </ItemGroup>
+</Project>
